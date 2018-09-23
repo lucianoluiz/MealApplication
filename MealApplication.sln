@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Tests", "2 - Tests", "{C371978E-636C-406B-8F27-ED2E1C3EC315}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{7F5CEEC9-3551-4C1A-97F7-B53CC2631FE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealApplication.Console", "src\MealApplication.Console\MealApplication.Console.csproj", "{909C9499-F9A8-45B6-A3DA-BDA9F2BDD00D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{0037B532-82F5-42B5-852A-0D5F943B797C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealApplication.Domain", "src\MealApplication.Domain\MealApplication.Domain.csproj", "{F82A5364-1223-4D4E-857B-0F01AA166097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealApplication.UnitTests", "tests\MealApplication.UnitTests\MealApplication.UnitTests.csproj", "{394ACF93-F27A-4AF4-8729-1F447C42D7FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealApplication.IntegrationTests", "tests\MealApplication.IntegrationTests\MealApplication.IntegrationTests.csproj", "{A5B25A87-0C39-475E-B61D-5CE8C99B3F54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{909C9499-F9A8-45B6-A3DA-BDA9F2BDD00D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{909C9499-F9A8-45B6-A3DA-BDA9F2BDD00D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{909C9499-F9A8-45B6-A3DA-BDA9F2BDD00D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{909C9499-F9A8-45B6-A3DA-BDA9F2BDD00D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F82A5364-1223-4D4E-857B-0F01AA166097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82A5364-1223-4D4E-857B-0F01AA166097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82A5364-1223-4D4E-857B-0F01AA166097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82A5364-1223-4D4E-857B-0F01AA166097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394ACF93-F27A-4AF4-8729-1F447C42D7FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394ACF93-F27A-4AF4-8729-1F447C42D7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394ACF93-F27A-4AF4-8729-1F447C42D7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394ACF93-F27A-4AF4-8729-1F447C42D7FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B25A87-0C39-475E-B61D-5CE8C99B3F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B25A87-0C39-475E-B61D-5CE8C99B3F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B25A87-0C39-475E-B61D-5CE8C99B3F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B25A87-0C39-475E-B61D-5CE8C99B3F54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{909C9499-F9A8-45B6-A3DA-BDA9F2BDD00D} = {7F5CEEC9-3551-4C1A-97F7-B53CC2631FE3}
+		{F82A5364-1223-4D4E-857B-0F01AA166097} = {0037B532-82F5-42B5-852A-0D5F943B797C}
+		{394ACF93-F27A-4AF4-8729-1F447C42D7FA} = {C371978E-636C-406B-8F27-ED2E1C3EC315}
+		{A5B25A87-0C39-475E-B61D-5CE8C99B3F54} = {C371978E-636C-406B-8F27-ED2E1C3EC315}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {922B27DA-2390-4F60-BFED-AA1801379811}
+	EndGlobalSection
+EndGlobal
